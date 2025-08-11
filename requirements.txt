@@ -39,6 +39,7 @@ ntgcalls==1.2.1
 numpy==1.26.4
 opencv-python-headless==4.10.0.82
 pyromod==1.5
+uvloop==0.17.0
 git+https://github.com/hakutakaid/pyrogram
 openai
 pydub
