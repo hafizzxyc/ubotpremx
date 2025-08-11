@@ -45,3 +45,4 @@ speedtest-cli
 PySocks
 multidict
 yarl
+idna
