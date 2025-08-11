@@ -11,7 +11,6 @@ COPY . /app
 RUN pip install --upgrade pip setuptools wheel
 
 RUN pip install Pillow==9.4.0
-RUN pip install uvloop==0.17.0
 
 RUN pip install -r requirements.txt --no-deps
 
