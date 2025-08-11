@@ -1,3 +1,7 @@
+pip>=23.0.1
+setuptools>=65.0.0
+wheel
+
 python-dotenv
 telegraph==2.2.0
 TgCrypto==1.2.5
@@ -10,13 +14,12 @@ motor
 dnspython
 GitPython
 bs4
-Pillow==9.4.0
+Pillow==8.4.0
 pymediainfo
 requests
 unidecode
 filetype
 attrify
-uvloop
 pySmartDL
 html2text
 removebg
@@ -24,7 +27,7 @@ aiofiles==24.1.0
 aiohttp==3.9.5
 aiosignal==1.3.1
 gpytranslate
-httpx[http2]
+httpx[http2]==0.27.2
 gtts
 youtube-search-python
 pymongo
@@ -32,13 +35,10 @@ yt-dlp
 wget
 python-dateutil
 emoji
-python-dotenv
 ntgcalls==1.2.1
 numpy==1.26.4
 opencv-python-headless==4.10.0.82
 pyromod==1.5
-pykeyboard
-httpx[http2]==0.27.2
 git+https://github.com/hakutakaid/pyrogram
 openai
 pydub
