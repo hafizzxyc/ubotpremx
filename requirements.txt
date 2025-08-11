@@ -14,7 +14,7 @@ pymediainfo
 requests
 unidecode
 filetype
-attrify
+attrs
 pySmartDL
 html2text
 removebg
