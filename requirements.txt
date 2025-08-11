@@ -40,3 +40,4 @@ pydub
 search_engine_parser
 geopy
 speedtest-cli
+PySocks
