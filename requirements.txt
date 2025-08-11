@@ -46,3 +46,4 @@ PySocks
 multidict
 yarl
 idna
+propcache
