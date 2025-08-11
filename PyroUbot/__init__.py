@@ -1,6 +1,6 @@
-import uvloop
+# import uvloop
 
-uvloop.install()
+# uvloop.install()
 
 import logging
 import os
