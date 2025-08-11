@@ -9,6 +9,11 @@ WORKDIR /app
 COPY . /app
 
 RUN pip install --upgrade pip setuptools wheel
-RUN pip install -r requirements.txt
+
+# Install dulu paket yang sering bikin masalah
+RUN pip install Pillow==9.4.0 uvloop==0.17.0
+
+# Install sisa requirements tanpa ulang pillow dan uvloop
+RUN pip install -r requirements.txt --no-deps
 
 CMD ["python", "-m", "PyroUbot"]
